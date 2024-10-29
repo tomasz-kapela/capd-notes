@@ -1,4 +1,4 @@
-# Installation of CAPD on Mac 
+# CAPD Installation on Mac 
 
 1) Install C++ compiler from Command Line Tools (it is also shipped with XCode) by doing one of the following:
 
