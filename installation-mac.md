@@ -2,18 +2,24 @@
 
 1) Install C++ compiler from Command Line Tools (it is also shipped with XCode) by doing one of the following:
 
-   * Install **Xcode** from App Store (it is quite heavy).
-   * It is enough to download and install **Command Line Tools** from Apple Developers (search for "command line tools").
+   * Download and install **Command Line Tools** from Apple Developers.
 
+     ```bash
+     xcode-select --install
+     ```
+     
+   * Install **Xcode** from App Store (it is quite heavy ~40GB). It provides also an IDE.
+     
 2. If you have an **M1, M2, M3 chip**, to use the filib interval library one needs **Rosetta** (Intel processor emulator).
    *If you have an Intel mac or if you want to use native CAPD interval library(experimental), ignore this step*.
+   You can check architecture using  `arch` command. Result `arm` indicates `Mx` architecture, for intel and Rosetta emulator it should be `i386`.
 
    In Finder find Terminal (which should be in Applications/Utilities/), right mouse click on it, and choose “get
    info”. Choose the “open using Rosetta” tickbox. Install Rosetta when prompted if you do not have one.
 
-   Quit Terminal. 
+   Restart Terminal.
 
-   > You can choose to have two versions of Terminal. One running with Rosetta and the other to run without it.
+   > You can . One running with Rosetta and the other to run without it.
    > To do so simply duplicate the Terminal application, and choose one of the terminal applications
    > to be under Rosetta and the other without it. Use the Rosetta terminal for the below installation steps.)
 
