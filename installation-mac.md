@@ -80,7 +80,8 @@
   * The most recent developed master branch can be cloned from the repository
 
     ```bash
-    git clone https://github.com/CAPDGroup/CAPDcd CAPD
+    git clone https://github.com/CAPDGroup/CAPD
+    cd CAPD
     mkdir build
     cd build
     cmake .. 
